@@ -2,6 +2,11 @@
 2020.2
 Jun 10 2021
 20:04:57
+C:/Users/Admin/Desktop/proc/Registers.v,1668546063,verilog,,C:/Users/Admin/Desktop/proc/reg_test.v,,registers,,,,,,,,
+C:/Users/Admin/Desktop/proc/alu.v,1668540388,verilog,,C:/Users/Admin/Desktop/proc/alu_test.v,,alu,,,,,,,,
+C:/Users/Admin/Desktop/proc/alu_test.v,1668543171,verilog,,,,alu_t,,,,,,,,
+C:/Users/Admin/Desktop/proc/memoryBank.v,1668538177,verilog,,C:/Users/Admin/Desktop/proc/MemTest.v,,Memory,,,,,,,,
+C:/Users/Admin/Desktop/proc/reg_test.v,1668545354,verilog,,,,test,,,,,,,,
 D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
-D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/instructionReg.v,1668525491,verilog,,D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/test_inst.v,,instReg,,,,,,,,
-D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/test_inst.v,1668525195,verilog,,,,test,,,,,,,,
+D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/instructionReg.v,1668525491,verilog,,D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/pc.v,,instReg,,,,,,,,
+D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/pc.v,1668532368,verilog,,D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sim_1/new/pctest.v,,pc,,,,,,,,

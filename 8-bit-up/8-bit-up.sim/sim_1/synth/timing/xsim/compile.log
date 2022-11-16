@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/synth/timing/xsim/test_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IBUF_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module IBUF_HD1
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sim_1/new/pctest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

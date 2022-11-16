@@ -2,11 +2,11 @@
 # Webtalk v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Tue Nov 15 20:38:06 2022
-# Process ID: 32948
+# Start of session at: Wed Nov 16 01:42:29 2022
+# Process ID: 9012
 # Current directory: D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Command line: wbtcv.exe -mode batch -source D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim/xsim.dir/alu_t_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim/webtalk.log
 # Journal file: D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim/xsim.dir/test_behav/webtalk/xsim_webtalk.tcl -notrace
+source D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim/xsim.dir/alu_t_behav/webtalk/xsim_webtalk.tcl -notrace

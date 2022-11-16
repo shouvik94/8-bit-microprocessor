@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov 15 22:59:51 2022
+# Process ID: 2284
+# Current directory: D:/8-bit-microprocessor/8-bit-up/8-bit-up.runs/impl_1
+# Command line: vivado.exe -log pc.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source pc.tcl -notrace
+# Log file: D:/8-bit-microprocessor/8-bit-up/8-bit-up.runs/impl_1/pc.vdi
+# Journal file: D:/8-bit-microprocessor/8-bit-up/8-bit-up.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source pc.tcl -notrace

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Nov 15 23:01:21 2022
+# Process ID: 24060
+# Current directory: D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/synth/timing/xsim/xsim.dir/test_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/synth/timing/xsim/xsim.dir/test_time_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/synth/timing/xsim/xsim.dir/test_time_synth/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Nov 15 23:01:26 2022. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2021.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 86.488 ; gain = 4.707
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov 15 23:01:26 2022...

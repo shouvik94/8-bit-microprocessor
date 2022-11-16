@@ -5,12 +5,4 @@ Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
-Starting simulation data flow analysis
-WARNING: [XSIM 43-4100] "D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "D:/8-bit-microprocessor/8-bit-up/8-bit-up.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.instReg
-Compiling module xil_defaultlib.test
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot test_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

@@ -11,66 +11,25 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="999,999 ps"></ZoomStartTime>
-      <ZoomEndTime time="1,000,004 ps"></ZoomEndTime>
-      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="10.000001 us"></ZoomEndTime>
+      <Cursor1Time time="4.128225 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="404"></NameColumnWidth>
-      <ValueColumnWidth column_width="190"></ValueColumnWidth>
+      <ValueColumnWidth column_width="178"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="13" />
-   <wvobject fp_name="/test/addr" type="array">
-      <obj_property name="ElementShortName">addr[7:0]</obj_property>
-      <obj_property name="ObjectShortName">addr[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/data" type="array">
-      <obj_property name="ElementShortName">data[7:0]</obj_property>
-      <obj_property name="ObjectShortName">data[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/done" type="logic">
-      <obj_property name="ElementShortName">done</obj_property>
-      <obj_property name="ObjectShortName">done</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/clk" type="logic">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
+   <WVObjectSize size="3" />
    <wvobject fp_name="/test/rst" type="logic">
       <obj_property name="ElementShortName">rst</obj_property>
       <obj_property name="ObjectShortName">rst</obj_property>
    </wvobject>
-   <wvobject fp_name="/test/out" type="array">
-      <obj_property name="ElementShortName">out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">out[7:0]</obj_property>
+   <wvobject fp_name="/test/R/rA" type="array">
+      <obj_property name="ElementShortName">rA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rA[7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/test/R/clk" type="logic">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/R/rst" type="logic">
-      <obj_property name="ElementShortName">rst</obj_property>
-      <obj_property name="ObjectShortName">rst</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/R/addr" type="array">
-      <obj_property name="ElementShortName">addr[7:0]</obj_property>
-      <obj_property name="ObjectShortName">addr[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/R/data" type="array">
-      <obj_property name="ElementShortName">data[7:0]</obj_property>
-      <obj_property name="ObjectShortName">data[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/R/done" type="logic">
-      <obj_property name="ElementShortName">done</obj_property>
-      <obj_property name="ObjectShortName">done</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/R/out" type="array">
-      <obj_property name="ElementShortName">out[7:0]</obj_property>
-      <obj_property name="ObjectShortName">out[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/R/mem" type="array">
-      <obj_property name="ElementShortName">mem[255:0][7:0]</obj_property>
-      <obj_property name="ObjectShortName">mem[255:0][7:0]</obj_property>
-      <obj_property name="isExpanded"></obj_property>
+   <wvobject fp_name="/test/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
    </wvobject>
 </wave_config>

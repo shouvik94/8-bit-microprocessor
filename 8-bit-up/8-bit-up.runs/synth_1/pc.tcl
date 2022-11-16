@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/8-bit-microprocessor/8-bit-up/8-bit-up.runs/synth_1/test.tcl"
+  variable script "D:/8-bit-microprocessor/8-bit-up/8-bit-up.runs/synth_1/pc.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,6 +70,11 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param checkpoint.writeSynthRtdsInDcp 1
+set_param chipscope.maxJobs 4
+set_param synth.incrementalSynthesisCache C:/Users/Admin/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-29340-LAPTOP-5U0L8N8Q/incrSyn
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xck26-sfvc784-2LV-c
 
@@ -85,10 +90,7 @@ set_property ip_output_repo d:/8-bit-microprocessor/8-bit-up/8-bit-up.cache/ip [
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib {
-  D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/instructionReg.v
-  D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/test_inst.v
-}
+read_verilog -library xil_defaultlib D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/pc.v
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -102,7 +104,7 @@ set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top test -part xck26-sfvc784-2LV-c
+synth_design -top pc -part xck26-sfvc784-2LV-c
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"
@@ -112,10 +114,10 @@ if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
 OPTRACE "write_checkpoint" START { CHECKPOINT }
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef test.dcp
+write_checkpoint -force -noxdef pc.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file test_utilization_synth.rpt -pb test_utilization_synth.pb"
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file pc_utilization_synth.rpt -pb pc_utilization_synth.pb"
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/instructionReg.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module instReg
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/8-bit-microprocessor/8-bit-up/8-bit-up.srcs/sources_1/new/test_inst.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module test
